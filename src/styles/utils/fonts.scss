@@ -1,0 +1,5 @@
+// Файл для подключения нестандартных шрифтов
+@import '../mixins/fonts.scss';
+
+@include font-custom(FiraSans-Regular, 300);
+@include font-custom(FiraSans-SemiBold, 600);

@@ -1,0 +1,26 @@
+@import "../utils/reset";
+@import "../utils/fonts.scss";
+@import "../mixins/media.scss";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
